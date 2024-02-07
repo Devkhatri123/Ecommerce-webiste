@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify App</title>
+</head>
+
+<body class="min-w-[295px]" >
+    <!-- class="min-w-[295px]" -->
+    <div id="container">
+    <header class=" flex justify-between px-[20px] pt-[15px] pb-[15px] items-baseline text-xl" id="header">
+        <div>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+        </div>
+       <h1 class="impact text-[1.4rem] font-serif" style="font-weight: 800;">IMPACT</h1>
+       <div>
+      <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <p id="cartNumber"></p>
+        </div>
+    </header>
+    <div class="search_container" id="search_container">
+        <div class="search">
+        <input type="text" id="search_product"><i class="fa fa-times" aria-hidden="true" id="close"></i>
+        </div>
+        <div  id="results">
+
+        </div>
+    </div>
+        <main class=" mt-6 flex flex-col" id="main">
+             <div class="flex justify-around">
+                <h1>Phones</h1>
+              </div>
+            <div class="product_row_container grid grid-cols-2 gap-x-1 mt-5 justify-center w-[auto] sm:grid-cols-3 sm:gap-4 lg:max-w-[77%] mx-[auto]">
+            </div>
+            <div class="flex justify-around">
+                <h1>Cloths</h1>
+               </div>
+            </div>
+            <div class="product_row_container1 grid grid-cols-2 gap-x-1 mt-5 justify-center w-[auto] sm:grid-cols-3 sm:gap-4  md:max-w-[77%] lg:max-w-[54%] mx-[auto]">
+            
+           
+         </div>
+         <!-- <div class="flex justify-around">
+            <h1>Home Products</h1>
+          </div> -->
+        <div class="product_row_container2 grid grid-cols-2 gap-x-1 mt-5 justify-center w-[auto] sm:grid-cols-3 sm:gap-4 lg:max-w-[54%] mx-[auto]">
+     </div>
+
+</div>
+</main>
+    <script src="index.js"></script>
+</body>
+
+</html>
+<!-- https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1692846360609 -->
+<!-- https://themes.shopify.com/themes/spotlight/styles/default?surface_inter_position=1&surface_intra_position=11&surface_type=all -->

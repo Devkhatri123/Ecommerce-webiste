@@ -1,0 +1,50 @@
+const Homeproducts = [
+{
+ name:LEVOIT Air Purifiers for Home Large Room Up to 1980 Ft² in 1 Hr With Air Quality Monitor, Smart WiFi and Auto       Mode, 3-in-1 Filter Captures Pet Allergies, Smoke, Dust, Pollen, Core 400S, White
+ front_image:"https://m.media-amazon.com/images/I/71TZMF8-wuL._AC_SX679_.jpg",
+ other_image1:"https://m.media-amazon.com/images/I/51hWqy5FyHL._AC_US75_.jpg",
+ other_image2:"https://m.media-amazon.com/images/I/41JCyI3mK0L._AC_US75_.jpg",
+ other_image3:"https://m.media-amazon.com/images/I/51tyt4v3TUL._AC_US75_.jpg",
+ price:186,
+about_item :The top-performing Levoit Core 400S Smart Air Purifier can purify large rooms, such as bedrooms, living rooms, kitchens, and basements. Purify a 403 ft² room 5x per hour and a 1980 ft² room 1x per hour,The laser dust sensor scans the surrounding air for airborne particles, continuously updating the PM2.5 display and creating graphs in the VeSync app so you can see how your air quality has improved,
+incart:1,
+},
+{
+ name:Shark HV301 Rocket Ultra-Light Corded Bagless Vacuum for Carpet and Hard Floor Cleaning with Swivel Steering, Gray/Orange
+ front_image:"https://m.media-amazon.com/images/I/31Qy05Z6z-L._AC_US75_.jpg",
+ other_image1:"https://m.media-amazon.com/images/I/51cTab7e6fL._AC_US75_.jpg",
+ other_image2:"https://m.media-amazon.com/images/I/51Wd8tEHJZL._AC_US75_.jpg",
+ other_image3:"https://m.media-amazon.com/images/I/51JuVcl2tqL._AC_US75_.jpg",
+ price:99,
+about_item :Never loses suction or power.Specific uses:Stairs,Furnitures.Amperage : 4.2 amps
+Cleans carpets and bare floors
+Lightweight - only 7 pounds. Amps- 4.2. Wattage- 500
+Versatile floor to ceiling cleaning
+Never Loses Suction or Power
+Cleans Bare Floors and Deep Cleans Carpets
+Lightweight
+Versatile Floor to Ceiling Cleaning
+Swivel Steering
+incart:1,
+},
+{
+ name:Shark AI Ultra Voice Control Robot Vacuum with Matrix Clean Navigation, Home Mapping, 60-Day Capacity, Self-Empty Base for Homes with Pets, Carpet & Hard Floors (Silver/Black)
+ front_image:"https://m.media-amazon.com/images/I/418178B1XvL._AC_US75_.jpg",
+ other_image1:"https://m.media-amazon.com/images/I/51H4Y88xMzL._AC_US75_.jpg",
+ other_image2:"https://m.media-amazon.com/images/I/51TNH21efqL._AC_US75_.jpg",
+ other_image3:"https://m.media-amazon.com/images/I/41z4v5H5tLL._AC_US75_.jpg",
+ price:298,
+about_item :INCREDIBLE SUCTION: Powerful Shark suction picks up dirt and debris on all floor types—tackling even the toughest of messes in your home.SharkClean App & Voice Control,PRECISION HOME MAPPING: 360° LiDAR vision quickly and accurately maps your home so your robot can methodically clean detecting and avoiding objects in its path, day or night, adapting to everyday changes in the home.,
+incart:1,
+},
+{
+ name:Shark AI Ultra Voice Control Robot Vacuum with Matrix Clean Navigation, Home Mapping, 60-Day Capacity, Self-Empty Base for Homes with Pets, Carpet & Hard Floors (Silver/Black)
+ front_image:"https://m.media-amazon.com/images/I/418178B1XvL._AC_US75_.jpg",
+ other_image1:"https://m.media-amazon.com/images/I/51H4Y88xMzL._AC_US75_.jpg",
+ other_image2:"https://m.media-amazon.com/images/I/51TNH21efqL._AC_US75_.jpg",
+ other_image3:"https://m.media-amazon.com/images/I/41z4v5H5tLL._AC_US75_.jpg",
+ price:298,
+about_item :INCREDIBLE SUCTION: Powerful Shark suction picks up dirt and debris on all floor types—tackling even the toughest of messes in your home.SharkClean App & Voice Control,PRECISION HOME MAPPING: 360° LiDAR vision quickly and accurately maps your home so your robot can methodically clean detecting and avoiding objects in its path, day or night, adapting to everyday changes in the home.,
+incart:1,
+},
+]

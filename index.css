@@ -1,0 +1,125 @@
+:root{
+    --blue:#4669ad;
+    --lightblue:#3f7ab5;
+    --lookbook-content-max-height: 390px;
+    --lookbook-content-padding-vertical: 0px;
+    --mobile-container-width-size: 100vw;
+}
+body{
+    font-family: Poppins;
+}
+input{
+    border:  1px solid;
+    border-right: none;
+    width: 67%;
+}
+#scroll::-webkit-scrollbar{
+    display: none;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+#cartNumber{
+    height: 17px;
+    position: relative;
+    bottom: 32px;
+    font-size: 11px;
+    left: 12px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    /* text-align: center; */
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active{
+    display: flex
+}
+#search_container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 24px;
+    /* max-width: 200px; */
+    /* display: flex; */
+    flex-direction: column;
+    max-width:300px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 6px;
+    top: -26px;
+    opacity: 1;
+    /* display: none; */
+    visibility: hidden;
+    background-color: white;
+    transition-property: height;
+    /* height: auto; */
+    position: absolute;
+    /* display: block; */
+    top: 9%;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    overflow-y: scroll;
+}
+.search_container>.search{
+    border-bottom: 2px solid;
+    /* margin: 0 11px; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 11px;
+    justify-content: space-around;
+    outline: none;
+}
+.search_container > div > input {
+    border: none;
+    width: -webkit-fill-available;
+    outline: none;
+}
+.search_container > div > i{
+    font-size: 22px;
+}
+
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e64a19;
+}
+
